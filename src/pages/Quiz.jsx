@@ -89,7 +89,7 @@ function Quiz() {
   if (loading) {
     return (
       <div className="quiz-center">
-        <p>Chargement des questions... ⏳</p>
+        <p>Chargement des questions...</p>
       </div>
     );
   }
@@ -99,7 +99,7 @@ function Quiz() {
       <div className="quiz-center">
         <p style={{ color: "#e94560" }}>{error}</p>
         <button className="quiz-back-btn" onClick={() => navigate("/")}>
-          ← Retour
+          Retour
         </button>
       </div>
     );
